@@ -25,7 +25,7 @@ h1, h3{
     min-height: 7px;
     padding: 7px;
     float: left;
-    border: 3px solid #fff;
+    border: 7px solid #fff;
 }
 .col-1 {
     width: 8.33333%;
@@ -61,21 +61,19 @@ h1, h3{
   width: 91.63%
 }
 .col-12 {
-    width: 100%;
+  width: 100%;
 }
 .row > div {
   display: inline-block;
    }
    /*PRIMERO*/
 #primero > .row > [class*="col-"]{
-  border: 7px solid #fff;
+  border-color: #fff;
   background: #77787C;
   height: 120px
 }
 /*SEGUNDO*/
-#segundo > .row > [class*="col-"]{
-  border: 7px solid #fff;
-}
+
 #segundo > .row > [class="col-4"]{
   height: 120px;
   background: #DCDDDF;
@@ -83,4 +81,18 @@ h1, h3{
 #segundo > .row > [class="col-12"]{
   height: 240px;
   background: #77787C;
+}
+/*TERCERO */
+#tercero > .third-1row [class*="col-"]{
+  height: 120px;
+  background: #77787C;
+
+}
+#tercero > .third-2row [class="col-12"]{
+  height: 120px;
+}
+#tercero > .third-3row > [class*="col-4"]{
+  height: 120px;
+  background: #DCDDDF;
+  float: right;
 }
