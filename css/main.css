@@ -73,3 +73,14 @@ h1, h2{
   height: 120px
 
 }
+/*SEGUNDO*/
+#segundo > .row > [class*="col-"]{
+  border: 7px solid #fff;
+  background: gray;
+}
+#segundo > .row > [class="col-4"]{
+  height: 120px;
+}
+#segundo > .row > [class="col-12"]{
+  height: 240px;
+}
