@@ -3,13 +3,13 @@
   box-sizing: border-box;
 }
 
-h1{
+
+h1, h2{
   text-align: center;
   text-transform: uppercase;
 }
 .container {
-  width: 90%;
-  /*min-width: 1200px;*/
+  width: 95%;
   margin: 0 auto;
 }
 .row:before, .row:after {
@@ -21,9 +21,11 @@ h1{
 }
 [class*="col-"] {
     min-height: 7px;
-    padding: 12px;
+
+    padding: 7px;
     float: left;
-    border: 1px solid red;
+    border: 7px solid #fff;
+    background: yellow;
 }
 .col-1 {
     width: 8.33333%;
@@ -61,8 +63,13 @@ h1{
 .col-12 {
     width: 100%;
 }
-/*PRIMERO*/
 .row > div {
   display: inline-block;
-  height: 280px;
+   }
+   /*PRIMERO*/
+#primero > .row > [class*="col-"]{
+  border: 7px solid #fff;
+  background: gray;
+  height: 120px
+
 }
