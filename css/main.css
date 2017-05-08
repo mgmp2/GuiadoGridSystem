@@ -96,3 +96,12 @@ h1, h3{
   background: #DCDDDF;
   float: right;
 }
+/*CUARTO*/
+#cuarta > .fourth-1row [class*="col-"]{
+  height: 120px;
+  background: #77787C;
+}
+#cuarta > .fourth-2row [class*="col-"]{
+  height: 240px;
+  background: #DCDDDF;
+}
