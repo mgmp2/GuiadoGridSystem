@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-h1, h2{
+h1, h3{
   text-align: center;
   text-transform: uppercase;
 }
@@ -11,6 +11,8 @@ h1, h2{
   width: 95%;
   /*min-width: 1200px;*/
   margin: 0 auto;
+  border: 1px solid #77787C;
+  background: #fff;
 }
 .row:before, .row:after {
     content: " ";
@@ -23,8 +25,7 @@ h1, h2{
     min-height: 7px;
     padding: 7px;
     float: left;
-    border: 7px solid #fff;
-    background: yellow;
+    border: 3px solid #fff;
 }
 .col-1 {
     width: 8.33333%;
@@ -68,17 +69,18 @@ h1, h2{
    /*PRIMERO*/
 #primero > .row > [class*="col-"]{
   border: 7px solid #fff;
-  background: gray;
+  background: #77787C;
   height: 120px
 }
 /*SEGUNDO*/
 #segundo > .row > [class*="col-"]{
   border: 7px solid #fff;
-  background: gray;
 }
 #segundo > .row > [class="col-4"]{
   height: 120px;
+  background: #DCDDDF;
 }
 #segundo > .row > [class="col-12"]{
   height: 240px;
+  background: #77787C;
 }
