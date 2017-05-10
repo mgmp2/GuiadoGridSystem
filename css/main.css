@@ -18,7 +18,10 @@ h1, h3{
   height: 100%;
 }
 .gray {
-  background: gray;
+  background: #77787C;
+}
+.light-gray {
+  background: #DCDDDF;
 }
 .row:before, .row:after {
     content: " ";
@@ -31,7 +34,6 @@ h1, h3{
     min-height: 7px;
     float: left;
     padding: 7px;
-
 }
 .col-1 {
     width: 8.33333%;
@@ -74,8 +76,7 @@ h1, h3{
    }
    /*PRIMERO*/
 #primero > .row > [class*="col-"]{
-  height: 120px
-
+  height: 120px;
 }
 /*SEGUNDO*/
 
