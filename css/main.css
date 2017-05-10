@@ -7,8 +7,13 @@ h1, h3{
   text-align: center;
   text-transform: uppercase;
 }
+.box-container {
+  width: 80%;
+  margin: 10px auto;
+
+}
 .container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   padding: 7px;
   border: 3px solid gray;
@@ -107,5 +112,15 @@ h1, h3{
 }
 /* QUINTA */
 #quinta > .row > [class*="col-4"] {
+  height: 120px;
+}
+/* SEXTA */
+#sexta > .row > [class*="col-12"] {
+  height: 120px;
+}
+#sexta > .row > [class*="col-8"] {
+  height: 240px;
+}
+#sexta > .row > [class*="col-4"] {
   height: 120px;
 }
