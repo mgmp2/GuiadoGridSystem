@@ -125,3 +125,10 @@ h1, h3{
 #sexta > .row > [class*="col-4"] {
   height: 120px;
 }
+/* SEPTIMA */
+#septima .seventh-1row [class*="col-"] {
+  height: 120px;
+}
+#septima .seventh-2row [class*="col-"] {
+  height: 240px;
+}
