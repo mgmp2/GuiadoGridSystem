@@ -131,3 +131,10 @@ h1, h3{
 #septima .seventh-2row [class*="col-"] {
   height: 240px;
 }
+/* OCTAVA */
+#octava .eighth-1row [class="col-4"] {
+  height: 240px;
+}
+#octava .eighth-2row [class*="col-"] {
+  height: 120px;
+}
