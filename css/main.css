@@ -139,3 +139,14 @@ h1, h3{
 #octava .eighth-2row [class*="col-"] {
   height: 120px;
 }
+/*NOVENA*/
+#novena > .row > [class*="col-8"] {
+  height: 240px;
+}
+#novena > .row > [class*="col-4"] {
+  height: 120px;
+}
+.large {
+  height: 240px!important;
+  margin-top: -120px
+}
