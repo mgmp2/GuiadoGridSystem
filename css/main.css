@@ -140,13 +140,28 @@ h1, h3{
   height: 120px;
 }
 /*NOVENA*/
-#novena > .row > [class*="col-8"] {
-  height: 240px;
+#novena > .row > [class*="col-"] {
+  height: 360px;
+  padding: 0;
 }
-#novena > .row > [class*="col-4"] {
-  height: 120px;
+.left > div:first-child {
+  height: 70%;
 }
-.large {
-  height: 240px!important;
-  margin-top: -120px
+.left > div:first-child .col-12 {
+  height: 100%;
+}
+.left > div:last-child {
+  height: 30%;
+}
+.left > div:last-child > div{
+  height: 100%;
+}
+.right > div:first-child {
+  height: 30%;
+}
+.right > div:last-child {
+  height: 70%;
+}
+.right > div:last-child div{
+  height: 100%;
 }
